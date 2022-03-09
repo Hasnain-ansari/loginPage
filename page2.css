@@ -1,0 +1,85 @@
+/* <i class="fa fa-user"></i>
+<i class="fa fa-envelope"></i>
+<i class="fa fa-magic"></i>
+<i class="fa fa-key"></i> */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Festive&family=Heebo:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(londonwheel.jpg) no-repeat center center fixed;
+    /* bacground-size = cover it will cover the background perfectly */
+    background-size: cover; 
+}
+
+.container{
+    /* border: 12px solid red; */
+    color: white;
+    /* to get the container into middle position absolute */
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 26%;
+    
+}
+
+
+.container h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 38px;
+    padding: 13px 0;
+    display: inline-block;
+}
+
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    border-bottom: 2px solid purple;
+    margin: 16px 0px;
+}
+
+
+
+.box i{
+    width: 25px;
+    /* float: left; */
+    text-align: center;
+    /* padding: 0 12px; */
+    
+}
+
+.box input{
+    width: 75%;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: none;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0;
+    padding: 4px 20px;
+    border: 2px solid purple;
+    border-radius: 9px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    color: purple;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+    
+}
